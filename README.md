@@ -1,4 +1,5 @@
 Objective:
+
 The primary goal of this analysis is to segment products based on their sales patterns using two clustering techniques: K-means and Spectral Clustering. The dataset comprises weekly sales data for various products, with a focus on columns starting with 'Normalized,' indicating normalized weekly sales figures.
 Data Overview:
 The dataset, 'Sales_Transactions_Dataset_Weekly.csv,' was loaded, and feature selection was performed to isolate columns related to normalized weekly sales.
@@ -17,6 +18,9 @@ Spectral Clustering, a graph-based approach, was utilized to form clusters by co
 Visualization and Comparison:
 A line plot of weekly sales trends provides an overview of the overall sales patterns.
 Scatter plots for K-means and Spectral Clustering visualize how products are grouped within clusters.
+
+
+
 Note on Color Representation:
 Colors are applied in the scatter plots to enhance the comparison between different clusters. Each color represents a distinct cluster. It is essential to understand that the choice of colors is arbitrary and is used for visual identification only. 
 In the K-means Clustering plot:
@@ -44,5 +48,7 @@ Not sensitive to the shape of clusters.
 Weaknesses:
 Computationally more expensive, especially for large datasets.
 Requires careful selection of parameters.
+
+
 Conclusion:
 This analysis provides a comprehensive view of the dataset, emphasizing clustering techniques, weekly sales trends, and a detailed comparison between different clusters. The addition of colors in the scatter plots enhances the visual representation, aiding in the interpretation of clustered results.
